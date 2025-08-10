@@ -77,10 +77,10 @@ OWNER_NAME: process.env.OWNER_NAME || "03286681378",
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Awais edit*",
 // add bot owner name    
 
-        READ_MESSAGE: process.env.READ_MESSAGE || "true",
+        READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
@@ -94,7 +94,7 @@ OWNER_NAME: process.env.OWNER_NAME || "03286681378",
               AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
